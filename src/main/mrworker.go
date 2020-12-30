@@ -10,11 +10,14 @@ package main
 // Please do not change this file.
 //
 
-import "../mr"
-import "plugin"
-import "os"
-import "fmt"
-import "log"
+import (
+	"fmt"
+	"log"
+	"os"
+	"plugin"
+
+	"github.com/huanpc/MIT_6824/src/mr"
+)
 
 func main() {
 	if len(os.Args) != 2 {
